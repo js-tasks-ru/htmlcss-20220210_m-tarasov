@@ -1,0 +1,40 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 579px;
+  height: 192px;
+  border: 1px solid #acb5bd;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.skeleton__header {
+  display: flex;
+  align-items: center;
+}
+
+.skeleton__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--grey-2);
+  margin-right: 16px;
+}
+
+.skeleton__plug {
+  height: 20px;
+  margin-bottom: 8px;
+  background: linear-gradient(
+    92.51deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
+}
+
+.skeleton__title-item:last-child {
+  margin-bottom: 0;
+}
