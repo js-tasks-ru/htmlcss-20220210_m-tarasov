@@ -1,0 +1,15 @@
+.preview {
+  flex: 1;
+  background-color: var(--grey-1);
+}
+
+.preview__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 67px 0;
+}
+
+.preview__card {
+  flex: 0 1 calc(33.33333% - 20px);
+}

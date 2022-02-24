@@ -1,0 +1,5 @@
+.header {
+  min-height: 237px;
+  background-color: var(--white);
+  padding: 96px 0 16px;
+}

@@ -1,0 +1,7 @@
+.page {
+  display: flex;
+  height: 100%;
+  flex-flow: column nowrap;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
