@@ -1,0 +1,49 @@
+.modal {
+  position: fixed;
+  width: 428px;
+  min-height: 294px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 40px;
+  background: var(--white);
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.modal-bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #C4C4C4;
+  opacity: 0.5;
+}
+
+.modal__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334d6e;
+  margin-bottom: 14px;
+}
+
+.modal__content {
+  font-size: 16px;
+  line-height: 24px;
+  color: #495057;
+}
+
+.modal__close-icon {
+  display: inline-block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
