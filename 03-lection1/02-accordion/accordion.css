@@ -1,12 +1,6 @@
 /* Стилизация аккордеона */
-.container {
-  display: flex;
-  justify-content: center;
-  padding: 120px 16px;
-}
-
 .accordion {
-  width: 730px;
+  width: 100%;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -44,7 +38,7 @@
   padding-bottom: 16px;
 }
 
-.accordion__item[open] .accordion__summary-arrow > svg {
+.accordion__item[open] .accordion__summary-arrow {
   transform: rotate(180deg);
 }
 
