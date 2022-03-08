@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 384px;
+  background-color: var(--white);
+  padding: 71px 0 32px;
+}
+
+.footer__header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.footer__text {
+  text-align: center;
+  width: 640px;
+}

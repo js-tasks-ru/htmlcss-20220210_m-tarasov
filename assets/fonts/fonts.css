@@ -1,1 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.h1,
+.h2,
+.font-medium {
+  margin: 0;
+  color: var(--black);
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 64px;
+}
+
+.h2 {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.font-medium {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
