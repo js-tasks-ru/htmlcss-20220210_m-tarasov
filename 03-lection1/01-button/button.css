@@ -1,17 +1,10 @@
 /* Стилизация кнопки */
-.buttons {
-  display: flex;
-  gap: 32px;
-  padding: 16px;
-}
-
 .button {
   display: inline-block;
-  min-width: 182px;
-  min-height: 48px;
+  height: 48px;
   font-weight: 500;
   font-size: 16px;
-  padding: 0 16px;
+  padding: 14px 65px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
